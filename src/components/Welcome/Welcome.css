@@ -1,0 +1,57 @@
+.noDisplay {
+  display: none;
+}
+.dashboardContainer{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 20px;
+  justify-content: center;
+}
+.cardsGrid{
+  display: grid;
+  grid-template-columns: auto auto;
+background-color: white;
+padding: 20px;
+margin-right: 20px;
+}
+.card {
+  padding: 30px 30px;
+  border: solid 1px transparent;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  color: white;
+  gap: 10px;
+  border-radius: 7px;
+}
+.card1 {
+  background-color: blue;
+  margin-bottom: 20px;
+}
+.card2 {
+  background-color: lightblue;
+  margin-bottom: 20px;
+}
+.card3 {
+  background-color: purple;
+}
+.card4 {
+  background-color: lightseagreen;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 700;
+}
+.welomeIcon{
+  margin-right: 10px;
+}
+.welcomeContainer{
+  padding-left: 20px;
+  background-color: #dddddd;
+  height: 100vh;
+}
+.dashboard{
+  color: blue;
+}

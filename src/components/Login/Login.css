@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 70px;
+  padding-top: 40px;
+}
+.inputs {
+  margin: 5px 2px 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 0 solid #c4cdd5;
+  padding-left: 10px;
+  background-color: #f6f7f9;
+  min-height: 50px;
+  outline-style: none;
+}
+.password-div {
+  position: relative;
+}
+.password-toggle {
+  position: absolute;
+  font-size: 12px;
+  color: rgb(51, 61, 71);
+  top: 17px;
+  right: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.acct-act {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-size: 28px;
+  color: rgb(51, 61, 71);
+  margin-bottom: 20px;
+}
+.button {
+  display: none;
+}
+#emailError {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 12px;
+  color: rgb(238, 63, 63);
+}
+.login-button {
+  margin-top: 40px;
+}
+.notAllowed {
+  cursor: not-allowed !important;
+}
+.reset {
+  margin-left: 3px;
+  text-decoration: underline;
+}
+.passwordReset {
+  text-align: center;
+  color: rgb(108, 120, 132);
+  font-size: 13px;
+  margin-top: 30px;
+}
+.form {
+  width: 340px;
+}
+
+@media only screen and (max-width: 380px) {
+  .form {
+    width: 200px;
+  }
+}

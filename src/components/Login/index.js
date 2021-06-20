@@ -22,7 +22,7 @@ export default function Login({setToken}) {
     // monitors the email input to give a corresponding error message
     useEffect(() => {
         if (press) {
-            !values.username ? setError('Please enter your email address') : setError('')
+            !values.username ? setError('Please enter valid username') : setError('')
                 // !emailRegex.test(values.email) ? setError('Please enter a valid email') : setError('');
         }
     }, [values.username, press])
@@ -90,7 +90,7 @@ export default function Login({setToken}) {
                                 name="username"
                                 id="email"
                                 className="inputs"
-                                placeholder=" Email address"
+                                placeholder="Username"
                                 value={values.username}
                                 onChange={handleUserNameInputChange}
                             />
